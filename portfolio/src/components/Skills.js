@@ -36,7 +36,26 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Todo: Enter Skills</p>
+                            <div className="ui">
+                                <h3>UI Technologies:</h3>
+                            <p>HTML, CSS, Tailwind CSS, SCSS/SASS, Bootstrap, Javascript, Typescript, React, Redux, Angular/Angularjs, Echarts</p>
+                            </div>
+                            <div className="backend">
+                                <h3>Backend</h3>
+                                <p>NodeJs, Java, Python, Expressjs ejs, RESTful web services</p>
+                            </div>
+                            <div className="testing">
+                                <h3>Testing Tools</h3>
+                                <p>Jest, AB Tasty</p>
+                            </div>
+                            <div className="db">
+                                <h3>Databases:</h3>
+                                <p>MongoDB, Firebase</p>
+                            </div>
+                            <div className="ecomm">
+                                <h3>Ecommerce:</h3>
+                                <p>Magneto, Shopify, Wix</p>
+                            </div>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
@@ -53,6 +72,22 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
                                     <h5>React</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Image" />
+                                    <h5>Angular</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Image" />
+                                    <h5>NodeJs</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Image" />
+                                    <h5>Express</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Image" />
+                                    <h5>RESTful APIs</h5>
                                 </div>
                             </Carousel>
                         </div>
