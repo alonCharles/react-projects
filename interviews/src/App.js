@@ -16,16 +16,16 @@ import menus from './components/tree-view/data'
 function App() {
   return (
     <div className="App">
-      {/* <Accordian/> */}
-      {/* <RandomColor/> */}
-      {/* <StarRating noOfStars={10}/> */}
-      {/* <ImageSlider url={"https://picsum.photos/v2/list"} limit={'10'} page={1}/> */}
-      {/* <LoadMore/> */}
-      {/* <TreeView menus={menus}/> */}
-      {/* <QRGenerator/> */}
-      {/* <LightDarkMode/>
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
-      {/* <TabTest/> */}
+      <Accordian/>
+      <RandomColor/>
+      <StarRating noOfStars={10}/>
+      <ImageSlider url={"https://picsum.photos/v2/list"} limit={'10'} page={1}/> 
+      <LoadMore/> 
+       <TreeView menus={menus}/> 
+       <QRGenerator/> 
+       <LightDarkMode/>
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> 
+       <TabTest/> 
       <ModalTest/>
         
     </div>
